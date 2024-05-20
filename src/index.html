@@ -111,12 +111,6 @@
             element.show();
         }
 
-        function reproduzirAudio() {
-          var texto = document.getElementById("traducao").value;
-          var utterance = new SpeechSynthesisUtterance(texto);
-          window.speechSynthesis.speak(utterance);
-        }
-
         function copiarTexto() {
             var element = document.getElementById("traducao");
             element.select();

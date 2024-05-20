@@ -112,7 +112,7 @@ def listCodeLangs():
         'vi: vietnamese',
         'cy: welsh',
         'xh: xhosa',
-        'yi: yiddish'
+        'yi: yiddish',
         'yo: yoruba',
         'zu: zulu']
 
