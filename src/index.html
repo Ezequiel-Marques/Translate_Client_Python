@@ -73,6 +73,17 @@
             padding: 10px;
         }
 
+        @media (max-width: 600px) {
+            .button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                padding: 10px;
+                flex-direction: column;
+            }
+        }
+
         .button > .translate {
             padding: 5px;
             border-radius: 10px;
@@ -129,7 +140,8 @@
             </div>
             <form slot="content" id="form-id" method="dialog" class="modalField">
                 <strong>Projeto desenvolvido para a Disciplina de Sistemas Distribuidos.</strong> <br><br>
-                Grupo: Carol, Ezequiel, Samuel, Kamila
+                <strong>Grupo: </strong>Carol, Ezequiel, Samuel, Kamila <br>
+                <strong>Professor: </strong>Gustavo Abreu
             </form>
             <div slot="actions">
                 <md-text-button form="form-id" class="modalField">Fechar</md-text-button>
